@@ -63,7 +63,7 @@ class olcNoiseMaker
 {
 public:
 	olcNoiseMaker(wstring sOutputDevice, unsigned int nSampleRate = 44100, unsigned int nChannels = 1, unsigned int nBlocks = 8, unsigned int nBlockSamples = 512)
-	{
+	{ 
 		Create(sOutputDevice, nSampleRate, nChannels, nBlocks, nBlockSamples);
 	}
 
